@@ -1,0 +1,155 @@
+html{
+    background: linear-gradient(to bottom, #000000, #d3bd98);
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+
+
+}
+h1{
+    color: white;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+#main-container{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    #main-container-top{
+        width: 90%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #nav-bar{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+            .nav-bar-sides{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                gap: 5%;
+            }
+                #title{
+                    font-size: 35px;
+                    color: white;
+                }
+                .nav-buttons{
+                    font-size: 20px;
+                    transition: 1.1s;
+                    cursor: pointer;
+                    color: white;
+                    text-decoration: underline;
+                }
+                .nav-buttons:hover{
+                    transform: scale(1.1)
+
+                }
+    #main-container-bottom{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+        .main-container-sides{
+            width: 45%;
+            height: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+            /*LEFT*/
+            #profile-box{
+                width: 80%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+                #profile{
+                    width: auto;
+                    height: 100%;
+                }
+            /* RIGHT */
+            #title-box{
+                width: 80%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+            }
+            #career-box{
+                width: 80%;
+                height: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                #career-header{
+                    font-size: 70px;
+                    color: #d3b176;
+                }
+            #commision-box{
+                width: 80%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+            }
+            #main-button-box{
+                width: 80%;
+                height: 30%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+
+                flex-direction: row;
+                gap: 10%;
+            }
+                .main-buttons{
+                    font-size: 25px;
+                    color: white;
+                    background-color: #d3b176;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                    transition: 1.1s;
+                }
+                    .main-buttons:hover{
+                        transform: scale(1.1);
+                    }
+                #career-button{
+                    width: 175px;
+                    height: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    border: 1px solid white;
+                }
+                #main-contact-button{
+                     width: 175px;
+                    height: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    border: 1px solid white;
+                }
