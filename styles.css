@@ -46,18 +46,22 @@ h2{
 h3{
     font-size: 40px;
     color: black;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.3);
 }
 h4{
     font-size: 20px;
     color: black;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.3);
 }
 h6{
     font-size: 17px;
     color: black;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.3);
 }
 h5{
     font-size: 15px;
     color: black;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.3);
 }
 #main-container{
     width: 100%;
@@ -675,3 +679,4 @@ h5{
             cursor: pointer;
             border: 1px solid black;
         }
+
