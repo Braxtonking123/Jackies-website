@@ -80,6 +80,9 @@ h5{
         display: flex;
         align-items: center;
         justify-content: center;
+
+        flex-direction: row;
+
     }
         #nav-bar{
             width: 100%;
@@ -124,6 +127,7 @@ h5{
         align-items: center;
         justify-content: center;
         flex-direction: row;
+
     }
         .main-container-sides{
             width: 45%;
@@ -224,7 +228,6 @@ h5{
 
     flex-direction: row;
     margin-bottom: 150px;
-
 }
     .small-contact-boxes{
         width: 26%;
@@ -375,7 +378,7 @@ h5{
         #video{
             width: 100%;
             height: 100%;
-            
+
         }
 /* BOTTOM SECTION */
 #bottom-section{
@@ -520,3 +523,144 @@ h5{
             cursor: pointer;
             border: 1px solid black;
         }
+
+
+/* MOBILE SETTINGS */
+@media (max-width: 768px) {
+  /* MAIN CONTAINER */
+#main-container-top{
+    flex-direction: column;
+    width: 100%;
+}
+    #nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar-sides{
+        width: 80%;
+        height: 50%;
+    }
+  #main-container-bottom{
+    flex-direction: column;
+  }
+    .main-container-sides{
+        width: 100%;
+        height: 45%;
+    }
+        #title{
+            font-size: 20px;
+        }
+        #career-header{
+            font-size: 50px;
+        }
+
+    #career-button{
+        width: 100px;
+        height: 75px;
+
+        font-size: 20px;
+        text-align: center;
+    }
+    #main-contact-button{
+        width: 100px;
+        height: 75px;
+
+        font-size: 20px;
+        text-align: center;
+    }
+
+            #main-button-box{
+                justify-content: center;
+            }
+            #commision-box{
+                justify-content: center;
+            }
+            #title-box{
+                justify-content: center;
+            }
+
+    /* SMALL CONTACT CONTAINER */
+    #small-contact-container{
+        flex-direction: column;
+        height: 600px;
+    }
+        .small-contact-boxes{
+            width: 100%;
+            height: 26%;
+        }
+
+
+    /* GALLERY SECTION */
+    #gallery-main-container{
+        width: 98%;
+    }
+    #gallery-content-container{
+    }
+        .headshot-containers{
+            flex-direction: column;
+        }
+            .headshot-boxes{
+                width: 100%;
+                height: 50%;
+            }
+
+    /* RESUME SECTION */
+    #resume-section{
+        height: 900px;
+    }
+    #resume-container{
+        width: 95%;
+        height: 100%;
+    }
+
+    /* VIDEO SECTION */
+    #video-container{
+        width: 95%;
+        height: 95%;
+    }
+
+    /* BOTTOM SECTION */
+    #bottom-section{
+        height: 700px;
+    }
+    #bottom-main-container{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+        .bottom-container-sides{
+            width: 98%;
+            height: 50%;
+        }
+            #left-box-one{
+                justify-content: center;
+            }
+                #bottom-header-main{
+                    font-size: 30px;
+                }
+            #left-box-two{
+                width: 98%;
+                height: 30%;
+                justify-content: center;
+            }
+                #bottom-bio-main{
+                    font-size: 18px;
+                }
+            #left-box-three{
+                justify-content: center;
+            }
+
+    /* RIGHT SIDE BOTTOM */
+    .bottom-contact-boxes{
+        justify-content: center;
+    }
+        .bottom-header-boxes{
+            justify-content: center;
+        }
+        .bottom-contact-boxes{
+            justify-content: center;
+        }
+
+        .bottom-emails, .bottom-numbers{
+            justify-content: center;
+        }
+}
