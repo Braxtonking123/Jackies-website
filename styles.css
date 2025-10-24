@@ -267,7 +267,7 @@ h5{
         }
             .small-contact-header{
                 font-size: 20px;
-                text-decoration: underline;
+                
             }
         .contact-info-bottom{
             width: 100%;
@@ -607,7 +607,9 @@ h5{
     /* SMALL CONTACT CONTAINER */
     #small-contact-container{
         flex-direction: column;
-        height: 600px;
+        height: 200px;
+
+        margin-bottom: 50px;
     }
         .small-contact-boxes{
             width: 100%;
