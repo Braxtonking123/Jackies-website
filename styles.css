@@ -218,6 +218,25 @@ h5{
                 }
 
 
+/* BIO CONTAINER */
+#bio-section-main{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #bio-container-main{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #biography-main{
+                font-size: 22px;
+            }
+
 /* SMALL CONTACT CONTAINER */
 #small-contact-container{
     width: 100%;
@@ -577,6 +596,14 @@ h5{
                 justify-content: center;
             }
 
+    /* BIO CONTAINER */
+    #bio-section-main{
+        height: auto;
+    }
+        #biography-main{
+            font-size: 18px;
+        }
+
     /* SMALL CONTACT CONTAINER */
     #small-contact-container{
         flex-direction: column;
@@ -586,7 +613,6 @@ h5{
             width: 100%;
             height: 26%;
         }
-
 
     /* GALLERY SECTION */
     #gallery-main-container{
