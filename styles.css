@@ -375,7 +375,7 @@ h5{
         justify-content: center;
     }
         #video{
-            width: 100%;
+            width: 70%;
             height: 100%;
 
         }
@@ -616,6 +616,10 @@ h5{
         width: 95%;
         height: 95%;
     }
+        #video{
+            height: 50%;
+            width: 100%;
+        }
 
     /* BOTTOM SECTION */
     #bottom-section{
