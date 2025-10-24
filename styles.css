@@ -264,7 +264,6 @@ h5{
             #email,#phone-number{
                 font-size: 18px;
                 color: white;
-                text-decoration: none;
                 cursor: pointer;
             }
         #contact-box-left,#contact-box-middle{
